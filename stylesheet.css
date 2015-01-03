@@ -1,0 +1,37 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html{
+	height:100%;
+	width:100%;
+	background: radial-gradient(circle, #eee 20%, #999);
+}
+
+.center{
+	position:absolute;
+	top:50%;
+	left:50%;
+/*	font-weight: 300;*/
+	-webkit-transform: translate(-50%,-60%);
+      -ms-transform: translate(-50%,-60%);
+          transform: translate(-50%,-60%);
+
+}
+
+.hex{
+	text-align:center;
+	color: #FFFFFF;
+	font-family: 'Anonymous Pro', serif;
+	font-size:40pt;
+}
+
+.shape{
+	content:"";
+	height:0;
+	width:0;
+	border-bottom:150px solid white;
+	border-right:100px solid transparent;
+	border-left:100px solid transparent;
+}
